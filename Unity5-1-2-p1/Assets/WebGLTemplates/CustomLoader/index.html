@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>%UNITY_WEB_NAME%</title>
+
+		<!-- jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="https://code.createjs.com/tweenjs-0.6.0.min.js"></script>
+		<script type="text/javascript" src="../libs/CSSPlugin.js"></script>
+		<script type="text/javascript" src="../libs/progress.js"></script>
+		<link rel="stylesheet" type="text/css" href="../ui/progress.css">
+		<script type="text/javascript">
+			function Output(s){
+				console.log(s);
+			}
+		</script>
+	</head>
+	<body>
+		<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="%UNITY_HEIGHT%px" width="100%"></canvas>
+
+		<div id="loadingBox" style="background-image:url('../ui/%UNITY_CUSTOM_IMAGENAME%.png');">
+			<div id="progressBar"></div>
+			<p id="loadingInfo">Loading...</p>
+		</div>
+
+		
+		%UNITY_WEBGL_LOADER_GLUE%
+
+	</body>
+</html>

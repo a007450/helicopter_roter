@@ -1,0 +1,568 @@
+fileFormatVersion: 2
+guid: 705e3b13d51ee4c70be51e3166980a58
+timeCreated: 1455563197
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone005
+    100006: Bone006
+    100008: Bone007
+    100010: Bone008
+    100012: Bone009
+    100014: Bone010
+    100016: Bone011
+    100018: Bone016
+    100020: Bone017
+    100022: Bone019
+    100024: Bone020
+    100026: Bone021
+    100028: Bone022
+    100030: Bone024
+    100032: Bone025
+    100034: Bone032
+    100036: Bone033
+    100038: Bone034
+    100040: Bone035
+    100042: Bone036
+    100044: Bone040
+    100046: Bone041
+    100048: Bone042
+    100050: Bone043
+    100052: Bone044
+    100054: Bone045
+    100056: Box006
+    100058: Box007
+    100060: Box008
+    100062: Box009
+    100064: Box018
+    100066: Box037
+    100068: Box045
+    100070: Box046
+    100072: Box047
+    100074: Box048
+    100076: Box049
+    100078: Box050
+    100080: Box051
+    100082: Box052
+    100084: Box053
+    100086: Box054
+    100088: Box055
+    100090: Box056
+    100092: Box057
+    100094: Box058
+    100096: Box059
+    100098: Box060
+    100100: Box061
+    100102: Box062
+    100104: Circle002
+    100106: Circle003
+    100108: connectBone001
+    100110: connectBone002
+    100112: Cylinder001
+    100114: Cylinder008
+    100116: Cylinder012
+    100118: Cylinder013
+    100120: Cylinder014
+    100122: Cylinder015
+    100124: Cylinder023
+    100126: Cylinder025
+    100128: Cylinder026
+    100130: Cylinder031
+    100132: Cylinder032
+    100134: Cylinder035
+    100136: Cylinder036
+    100138: Cylinder037
+    100140: Cylinder038
+    100142: Cylinder039
+    100144: Cylinder040
+    100146: Cylinder041
+    100148: Cylinder042
+    100150: Cylinder043
+    100152: Cylinder044
+    100154: Cylinder045
+    100156: Dummy001
+    100158: Dummy002
+    100160: Dummy003
+    100162: Dummy005
+    100164: Dummy006
+    100166: Dummy007
+    100168: Dummy008
+    100170: Dummy009
+    100172: Dummy010
+    100174: Dummy012
+    100176: Dummy013
+    100178: IK Chain001
+    100180: IK Chain002
+    100182: IK Chain003
+    100184: IK Chain006
+    100186: IK Chain007
+    100188: IK Chain011
+    100190: IK Chain012
+    100192: IK Chain013
+    100194: IK Chain014
+    100196: IK Chain015
+    100198: IK Chain016
+    100200: Object
+    100202: Object001
+    100204: Object003
+    100206: Object006
+    100208: Object007
+    100210: Object010
+    100212: Object011
+    100214: Object012
+    100216: Object013
+    100218: Object014
+    100220: Object021
+    100222: Object023
+    100224: Object025
+    100226: Object027
+    100228: Object028
+    100230: Object029
+    100232: Object031
+    100234: Pin 02
+    100236: Pin 03
+    100238: Pin 04
+    100240: Pin 05
+    100242: Pin 06
+    100244: Pin 07
+    100246: Pin 08
+    100248: Pin 09
+    100250: Pin 10
+    100252: Pin 11
+    100254: Pin 12
+    100256: Pin 13
+    100258: Pin 14
+    100260: //RootNode
+    400000: Bone001
+    400002: Bone002
+    400004: Bone005
+    400006: Bone006
+    400008: Bone007
+    400010: Bone008
+    400012: Bone009
+    400014: Bone010
+    400016: Bone011
+    400018: Bone016
+    400020: Bone017
+    400022: Bone019
+    400024: Bone020
+    400026: Bone021
+    400028: Bone022
+    400030: Bone024
+    400032: Bone025
+    400034: Bone032
+    400036: Bone033
+    400038: Bone034
+    400040: Bone035
+    400042: Bone036
+    400044: Bone040
+    400046: Bone041
+    400048: Bone042
+    400050: Bone043
+    400052: Bone044
+    400054: Bone045
+    400056: Box006
+    400058: Box007
+    400060: Box008
+    400062: Box009
+    400064: Box018
+    400066: Box037
+    400068: Box045
+    400070: Box046
+    400072: Box047
+    400074: Box048
+    400076: Box049
+    400078: Box050
+    400080: Box051
+    400082: Box052
+    400084: Box053
+    400086: Box054
+    400088: Box055
+    400090: Box056
+    400092: Box057
+    400094: Box058
+    400096: Box059
+    400098: Box060
+    400100: Box061
+    400102: Box062
+    400104: Circle002
+    400106: Circle003
+    400108: connectBone001
+    400110: connectBone002
+    400112: Cylinder001
+    400114: Cylinder008
+    400116: Cylinder012
+    400118: Cylinder013
+    400120: Cylinder014
+    400122: Cylinder015
+    400124: Cylinder023
+    400126: Cylinder025
+    400128: Cylinder026
+    400130: Cylinder031
+    400132: Cylinder032
+    400134: Cylinder035
+    400136: Cylinder036
+    400138: Cylinder037
+    400140: Cylinder038
+    400142: Cylinder039
+    400144: Cylinder040
+    400146: Cylinder041
+    400148: Cylinder042
+    400150: Cylinder043
+    400152: Cylinder044
+    400154: Cylinder045
+    400156: Dummy001
+    400158: Dummy002
+    400160: Dummy003
+    400162: Dummy005
+    400164: Dummy006
+    400166: Dummy007
+    400168: Dummy008
+    400170: Dummy009
+    400172: Dummy010
+    400174: Dummy012
+    400176: Dummy013
+    400178: IK Chain001
+    400180: IK Chain002
+    400182: IK Chain003
+    400184: IK Chain006
+    400186: IK Chain007
+    400188: IK Chain011
+    400190: IK Chain012
+    400192: IK Chain013
+    400194: IK Chain014
+    400196: IK Chain015
+    400198: IK Chain016
+    400200: Object
+    400202: Object001
+    400204: Object003
+    400206: Object006
+    400208: Object007
+    400210: Object010
+    400212: Object011
+    400214: Object012
+    400216: Object013
+    400218: Object014
+    400220: Object021
+    400222: Object023
+    400224: Object025
+    400226: Object027
+    400228: Object028
+    400230: Object029
+    400232: Object031
+    400234: Pin 02
+    400236: Pin 03
+    400238: Pin 04
+    400240: Pin 05
+    400242: Pin 06
+    400244: Pin 07
+    400246: Pin 08
+    400248: Pin 09
+    400250: Pin 10
+    400252: Pin 11
+    400254: Pin 12
+    400256: Pin 13
+    400258: Pin 14
+    400260: //RootNode
+    2300000: Box006
+    2300002: Box007
+    2300004: Box008
+    2300006: Box009
+    2300008: Box018
+    2300010: Box037
+    2300012: Box045
+    2300014: Box046
+    2300016: Box047
+    2300018: Box048
+    2300020: Box049
+    2300022: Box050
+    2300024: Box051
+    2300026: Box052
+    2300028: Box053
+    2300030: Box054
+    2300032: Box055
+    2300034: Box056
+    2300036: Box057
+    2300038: Box058
+    2300040: Box059
+    2300042: Box060
+    2300044: Box061
+    2300046: Box062
+    2300048: Circle002
+    2300050: Circle003
+    2300052: Cylinder001
+    2300054: Cylinder008
+    2300056: Cylinder012
+    2300058: Cylinder013
+    2300060: Cylinder014
+    2300062: Cylinder023
+    2300064: Cylinder025
+    2300066: Cylinder026
+    2300068: Cylinder031
+    2300070: Cylinder032
+    2300072: Cylinder035
+    2300074: Cylinder036
+    2300076: Cylinder037
+    2300078: Cylinder038
+    2300080: Cylinder039
+    2300082: Cylinder040
+    2300084: Cylinder041
+    2300086: Cylinder042
+    2300088: Cylinder043
+    2300090: Cylinder044
+    2300092: Cylinder045
+    2300094: Object
+    2300096: Object001
+    2300098: Object003
+    2300100: Object006
+    2300102: Object007
+    2300104: Object010
+    2300106: Object011
+    2300108: Object012
+    2300110: Object013
+    2300112: Object014
+    2300114: Object021
+    2300116: Object023
+    2300118: Object025
+    2300120: Object027
+    2300122: Object028
+    2300124: Object029
+    2300126: Object031
+    2300128: Pin 02
+    2300130: Pin 03
+    2300132: Pin 04
+    2300134: Pin 05
+    2300136: Pin 06
+    2300138: Pin 07
+    2300140: Pin 08
+    2300142: Pin 09
+    2300144: Pin 10
+    2300146: Pin 11
+    2300148: Pin 12
+    2300150: Pin 13
+    2300152: Pin 14
+    2300154: Cylinder015
+    3300000: Box006
+    3300002: Box007
+    3300004: Box008
+    3300006: Box009
+    3300008: Box018
+    3300010: Box037
+    3300012: Box045
+    3300014: Box046
+    3300016: Box047
+    3300018: Box048
+    3300020: Box049
+    3300022: Box050
+    3300024: Box051
+    3300026: Box052
+    3300028: Box053
+    3300030: Box054
+    3300032: Box055
+    3300034: Box056
+    3300036: Box057
+    3300038: Box058
+    3300040: Box059
+    3300042: Box060
+    3300044: Box061
+    3300046: Box062
+    3300048: Circle002
+    3300050: Circle003
+    3300052: Cylinder001
+    3300054: Cylinder008
+    3300056: Cylinder012
+    3300058: Cylinder013
+    3300060: Cylinder014
+    3300062: Cylinder023
+    3300064: Cylinder025
+    3300066: Cylinder026
+    3300068: Cylinder031
+    3300070: Cylinder032
+    3300072: Cylinder035
+    3300074: Cylinder036
+    3300076: Cylinder037
+    3300078: Cylinder038
+    3300080: Cylinder039
+    3300082: Cylinder040
+    3300084: Cylinder041
+    3300086: Cylinder042
+    3300088: Cylinder043
+    3300090: Cylinder044
+    3300092: Cylinder045
+    3300094: Object
+    3300096: Object001
+    3300098: Object003
+    3300100: Object006
+    3300102: Object007
+    3300104: Object010
+    3300106: Object011
+    3300108: Object012
+    3300110: Object013
+    3300112: Object014
+    3300114: Object021
+    3300116: Object023
+    3300118: Object025
+    3300120: Object027
+    3300122: Object028
+    3300124: Object029
+    3300126: Object031
+    3300128: Pin 02
+    3300130: Pin 03
+    3300132: Pin 04
+    3300134: Pin 05
+    3300136: Pin 06
+    3300138: Pin 07
+    3300140: Pin 08
+    3300142: Pin 09
+    3300144: Pin 10
+    3300146: Pin 11
+    3300148: Pin 12
+    3300150: Pin 13
+    3300152: Pin 14
+    3300154: Cylinder015
+    4300000: Cylinder001
+    4300002: Pin 03
+    4300004: Pin 02
+    4300006: Object010
+    4300008: Object014
+    4300010: Object012
+    4300012: Object001
+    4300014: Object003
+    4300016: Cylinder014
+    4300018: Pin 04
+    4300020: Cylinder015
+    4300022: Object007
+    4300024: Box037
+    4300026: Box008
+    4300028: Pin 05
+    4300030: Box009
+    4300032: Circle002
+    4300034: Cylinder012
+    4300036: Pin 10
+    4300038: Pin 11
+    4300040: Cylinder035
+    4300042: Pin 12
+    4300044: Cylinder008
+    4300046: Object006
+    4300048: Pin 06
+    4300050: Pin 07
+    4300052: Pin 08
+    4300054: Object011
+    4300056: Object013
+    4300058: Pin 09
+    4300060: Circle003
+    4300062: Object031
+    4300064: Cylinder013
+    4300066: Object021
+    4300068: Pin 14
+    4300070: Box006
+    4300072: Pin 13
+    4300074: Box007
+    4300076: Cylinder036
+    4300078: Box051
+    4300080: Cylinder037
+    4300082: Cylinder038
+    4300084: Box054
+    4300086: Cylinder039
+    4300088: Cylinder040
+    4300090: Box053
+    4300092: Box052
+    4300094: Box056
+    4300096: Box055
+    4300098: Object
+    4300100: Cylinder023
+    4300102: Cylinder026
+    4300104: Cylinder025
+    4300106: Box047
+    4300108: Box048
+    4300110: Box049
+    4300112: Box046
+    4300114: Cylinder031
+    4300116: Cylinder032
+    4300118: Box050
+    4300120: Box045
+    4300122: Object025
+    4300124: Cylinder041
+    4300126: Cylinder044
+    4300128: Cylinder045
+    4300130: Box058
+    4300132: Box062
+    4300134: Box059
+    4300136: Box057
+    4300138: Box060
+    4300140: Cylinder042
+    4300142: Cylinder043
+    4300144: Box061
+    4300146: Object027
+    4300148: Box018
+    4300150: Object029
+    4300152: Object023
+    4300154: Object028
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Cylinder015
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

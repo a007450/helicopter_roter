@@ -1,0 +1,839 @@
+fileFormatVersion: 2
+guid: 1793d60de5d1e4849ae1b814a285ee1d
+timeCreated: 1455568346
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Blade01
+    100002: Blade02
+    100004: Blade03
+    100006: Bone001
+    100008: Bone002
+    100010: Bone005
+    100012: Bone006
+    100014: Bone007
+    100016: Bone008
+    100018: Bone009
+    100020: Bone010
+    100022: Bone011
+    100024: Bone016
+    100026: Bone017
+    100028: Bone019
+    100030: Bone020
+    100032: Bone021
+    100034: Bone022
+    100036: Bone024
+    100038: Bone025
+    100040: Bone032
+    100042: Bone033
+    100044: Bone034
+    100046: Bone035
+    100048: Bone036
+    100050: Bone040
+    100052: Bone041
+    100054: Bone042
+    100056: Bone043
+    100058: Bone044
+    100060: Bone045
+    100062: Box006
+    100064: Box007
+    100066: Box008
+    100068: Box009
+    100070: Box048
+    100072: Box050
+    100074: Box053
+    100076: Box054
+    100078: Box058
+    100080: Box060
+    100082: connectBone001
+    100084: connectBone002
+    100086: ControlRod01
+    100088: ControlRod02
+    100090: ControlRod03
+    100092: Cylinder013
+    100094: Cylinder014
+    100096: Cylinder025
+    100098: Cylinder026
+    100100: Cylinder031
+    100102: Cylinder032
+    100104: Cylinder035
+    100106: Cylinder037
+    100108: Cylinder038
+    100110: Cylinder039
+    100112: Cylinder040
+    100114: Cylinder042
+    100116: Cylinder043
+    100118: Cylinder044
+    100120: Cylinder045
+    100122: Dummy001
+    100124: Dummy002
+    100126: Dummy003
+    100128: Dummy005
+    100130: Dummy006
+    100132: Dummy007
+    100134: Dummy008
+    100136: Dummy009
+    100138: Dummy010
+    100140: Dummy011
+    100142: Dummy012
+    100144: FlybarControlArm01
+    100146: FlybarControlArm02
+    100148: FlybarControlArm03
+    100150: IK Chain001
+    100152: IK Chain002
+    100154: IK Chain003
+    100156: IK Chain006
+    100158: IK Chain007
+    100160: IK Chain011
+    100162: IK Chain012
+    100164: IK Chain013
+    100166: IK Chain014
+    100168: IK Chain015
+    100170: IK Chain016
+    100172: Lower Swash Plate
+    100174: LowerBladeGrip01
+    100176: LowerBladeGrip02
+    100178: LowerBladeGrip03
+    100180: Main Controler
+    100182: Main Shaft
+    100184: Object
+    100186: Object001
+    100188: Object003
+    100190: Object007
+    100192: Object010
+    100194: Object012
+    100196: Object014
+    100198: Object021
+    100200: Object023
+    100202: Object025
+    100204: Object027
+    100206: Object028
+    100208: Object029
+    100210: Pin02
+    100212: Pin03
+    100214: Pin04
+    100216: Pin05
+    100218: Pin06
+    100220: Pin07
+    100222: Pin08
+    100224: Pin09
+    100226: Pin10
+    100228: Pin11
+    100230: Pin12
+    100232: Pin13
+    100234: Pin14
+    100236: PitchServoGroup01
+    100238: PitchServoGroup02
+    100240: PitchServoGroup03
+    100242: ProtectiveBoot
+    100244: //RootNode
+    100246: Rotar Housing
+    100248: Star
+    100250: Upper Swash Plate
+    100252: UpperBladeGrip01
+    100254: UpperBladeGrip02
+    100256: UpperBladeGrip03
+    400000: Blade01
+    400002: Blade02
+    400004: Blade03
+    400006: Bone001
+    400008: Bone002
+    400010: Bone005
+    400012: Bone006
+    400014: Bone007
+    400016: Bone008
+    400018: Bone009
+    400020: Bone010
+    400022: Bone011
+    400024: Bone016
+    400026: Bone017
+    400028: Bone019
+    400030: Bone020
+    400032: Bone021
+    400034: Bone022
+    400036: Bone024
+    400038: Bone025
+    400040: Bone032
+    400042: Bone033
+    400044: Bone034
+    400046: Bone035
+    400048: Bone036
+    400050: Bone040
+    400052: Bone041
+    400054: Bone042
+    400056: Bone043
+    400058: Bone044
+    400060: Bone045
+    400062: Box006
+    400064: Box007
+    400066: Box008
+    400068: Box009
+    400070: Box048
+    400072: Box050
+    400074: Box053
+    400076: Box054
+    400078: Box058
+    400080: Box060
+    400082: connectBone001
+    400084: connectBone002
+    400086: ControlRod01
+    400088: ControlRod02
+    400090: ControlRod03
+    400092: Cylinder013
+    400094: Cylinder014
+    400096: Cylinder025
+    400098: Cylinder026
+    400100: Cylinder031
+    400102: Cylinder032
+    400104: Cylinder035
+    400106: Cylinder037
+    400108: Cylinder038
+    400110: Cylinder039
+    400112: Cylinder040
+    400114: Cylinder042
+    400116: Cylinder043
+    400118: Cylinder044
+    400120: Cylinder045
+    400122: Dummy001
+    400124: Dummy002
+    400126: Dummy003
+    400128: Dummy005
+    400130: Dummy006
+    400132: Dummy007
+    400134: Dummy008
+    400136: Dummy009
+    400138: Dummy010
+    400140: Dummy011
+    400142: Dummy012
+    400144: FlybarControlArm01
+    400146: FlybarControlArm02
+    400148: FlybarControlArm03
+    400150: IK Chain001
+    400152: IK Chain002
+    400154: IK Chain003
+    400156: IK Chain006
+    400158: IK Chain007
+    400160: IK Chain011
+    400162: IK Chain012
+    400164: IK Chain013
+    400166: IK Chain014
+    400168: IK Chain015
+    400170: IK Chain016
+    400172: Lower Swash Plate
+    400174: LowerBladeGrip01
+    400176: LowerBladeGrip02
+    400178: LowerBladeGrip03
+    400180: Main Controler
+    400182: Main Shaft
+    400184: Object
+    400186: Object001
+    400188: Object003
+    400190: Object007
+    400192: Object010
+    400194: Object012
+    400196: Object014
+    400198: Object021
+    400200: Object023
+    400202: Object025
+    400204: Object027
+    400206: Object028
+    400208: Object029
+    400210: Pin02
+    400212: Pin03
+    400214: Pin04
+    400216: Pin05
+    400218: Pin06
+    400220: Pin07
+    400222: Pin08
+    400224: Pin09
+    400226: Pin10
+    400228: Pin11
+    400230: Pin12
+    400232: Pin13
+    400234: Pin14
+    400236: PitchServoGroup01
+    400238: PitchServoGroup02
+    400240: PitchServoGroup03
+    400242: ProtectiveBoot
+    400244: //RootNode
+    400246: Rotar Housing
+    400248: Star
+    400250: Upper Swash Plate
+    400252: UpperBladeGrip01
+    400254: UpperBladeGrip02
+    400256: UpperBladeGrip03
+    2300000: Blade01
+    2300002: Blade02
+    2300004: Blade03
+    2300006: Box006
+    2300008: Box007
+    2300010: Box008
+    2300012: Box009
+    2300014: Box048
+    2300016: Box050
+    2300018: Box053
+    2300020: Box054
+    2300022: Box058
+    2300024: Box060
+    2300026: ControlRod01
+    2300028: ControlRod02
+    2300030: ControlRod03
+    2300032: Cylinder013
+    2300034: Cylinder014
+    2300036: Cylinder025
+    2300038: Cylinder026
+    2300040: Cylinder031
+    2300042: Cylinder032
+    2300044: Cylinder035
+    2300046: Cylinder037
+    2300048: Cylinder038
+    2300050: Cylinder039
+    2300052: Cylinder040
+    2300054: Cylinder042
+    2300056: Cylinder043
+    2300058: Cylinder044
+    2300060: Cylinder045
+    2300062: FlybarControlArm01
+    2300064: FlybarControlArm02
+    2300066: FlybarControlArm03
+    2300068: Lower Swash Plate
+    2300070: LowerBladeGrip01
+    2300072: LowerBladeGrip02
+    2300074: LowerBladeGrip03
+    2300076: Main Shaft
+    2300078: Object
+    2300080: Object001
+    2300082: Object003
+    2300084: Object007
+    2300086: Object010
+    2300088: Object012
+    2300090: Object014
+    2300092: Object021
+    2300094: Object023
+    2300096: Object025
+    2300098: Object027
+    2300100: Object028
+    2300102: Object029
+    2300104: Pin02
+    2300106: Pin03
+    2300108: Pin04
+    2300110: Pin05
+    2300112: Pin06
+    2300114: Pin07
+    2300116: Pin08
+    2300118: Pin09
+    2300120: Pin10
+    2300122: Pin11
+    2300124: Pin12
+    2300126: Pin13
+    2300128: Pin14
+    2300130: PitchServoGroup01
+    2300132: PitchServoGroup02
+    2300134: PitchServoGroup03
+    2300136: Rotar Housing
+    2300138: Star
+    2300140: Upper Swash Plate
+    2300142: UpperBladeGrip01
+    2300144: UpperBladeGrip02
+    2300146: UpperBladeGrip03
+    3300000: Blade01
+    3300002: Blade02
+    3300004: Blade03
+    3300006: Box006
+    3300008: Box007
+    3300010: Box008
+    3300012: Box009
+    3300014: Box048
+    3300016: Box050
+    3300018: Box053
+    3300020: Box054
+    3300022: Box058
+    3300024: Box060
+    3300026: ControlRod01
+    3300028: ControlRod02
+    3300030: ControlRod03
+    3300032: Cylinder013
+    3300034: Cylinder014
+    3300036: Cylinder025
+    3300038: Cylinder026
+    3300040: Cylinder031
+    3300042: Cylinder032
+    3300044: Cylinder035
+    3300046: Cylinder037
+    3300048: Cylinder038
+    3300050: Cylinder039
+    3300052: Cylinder040
+    3300054: Cylinder042
+    3300056: Cylinder043
+    3300058: Cylinder044
+    3300060: Cylinder045
+    3300062: FlybarControlArm01
+    3300064: FlybarControlArm02
+    3300066: FlybarControlArm03
+    3300068: Lower Swash Plate
+    3300070: LowerBladeGrip01
+    3300072: LowerBladeGrip02
+    3300074: LowerBladeGrip03
+    3300076: Main Shaft
+    3300078: Object
+    3300080: Object001
+    3300082: Object003
+    3300084: Object007
+    3300086: Object010
+    3300088: Object012
+    3300090: Object014
+    3300092: Object021
+    3300094: Object023
+    3300096: Object025
+    3300098: Object027
+    3300100: Object028
+    3300102: Object029
+    3300104: Pin02
+    3300106: Pin03
+    3300108: Pin04
+    3300110: Pin05
+    3300112: Pin06
+    3300114: Pin07
+    3300116: Pin08
+    3300118: Pin09
+    3300120: Pin10
+    3300122: Pin11
+    3300124: Pin12
+    3300126: Pin13
+    3300128: Pin14
+    3300130: PitchServoGroup01
+    3300132: PitchServoGroup02
+    3300134: PitchServoGroup03
+    3300136: Rotar Housing
+    3300138: Star
+    3300140: Upper Swash Plate
+    3300142: UpperBladeGrip01
+    3300144: UpperBladeGrip02
+    3300146: UpperBladeGrip03
+    4300000: Rotar Housing
+    4300002: Pin03
+    4300004: Pin02
+    4300006: Object010
+    4300008: Object014
+    4300010: Object012
+    4300012: Object001
+    4300014: Object003
+    4300016: Cylinder014
+    4300018: Pin04
+    4300020: ProtectiveBoot
+    4300022: Object007
+    4300024: Box008
+    4300026: Pin05
+    4300028: Box009
+    4300030: ControlRod02
+    4300032: Cylinder026
+    4300034: Cylinder025
+    4300036: LowerBladeGrip02
+    4300038: Box048
+    4300040: UpperBladeGrip02
+    4300042: Blade02
+    4300044: Cylinder031
+    4300046: Cylinder032
+    4300048: Box050
+    4300050: FlybarControlArm02
+    4300052: Object025
+    4300054: ControlRod03
+    4300056: Cylinder044
+    4300058: Cylinder045
+    4300060: Box058
+    4300062: Blade03
+    4300064: UpperBladeGrip03
+    4300066: LowerBladeGrip03
+    4300068: Box060
+    4300070: Cylinder042
+    4300072: Cylinder043
+    4300074: FlybarControlArm03
+    4300076: Object027
+    4300078: ControlRod01
+    4300080: UpperBladeGrip01
+    4300082: Cylinder037
+    4300084: Cylinder038
+    4300086: Box054
+    4300088: Cylinder039
+    4300090: Cylinder040
+    4300092: Box053
+    4300094: LowerBladeGrip01
+    4300096: Blade01
+    4300098: FlybarControlArm01
+    4300100: Object
+    4300102: Star
+    4300104: Object029
+    4300106: Object023
+    4300108: Object028
+    4300110: Cylinder013
+    4300112: Object021
+    4300114: Pin14
+    4300116: Box006
+    4300118: Pin13
+    4300120: Box007
+    4300122: Upper Swash Plate
+    4300124: Pin10
+    4300126: Pin11
+    4300128: Cylinder035
+    4300130: Pin12
+    4300132: Lower Swash Plate
+    4300134: PitchServoGroup01
+    4300136: Pin06
+    4300138: Pin07
+    4300140: Pin08
+    4300142: PitchServoGroup02
+    4300144: PitchServoGroup03
+    4300146: Pin09
+    4300148: Main Shaft
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: ProtectiveBoot
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone040
+        weight: 1
+      - path: Bone040/Bone041
+        weight: 1
+      - path: Bone040/Bone041/Bone042
+        weight: 1
+      - path: Bone040/Bone041/Box008
+        weight: 1
+      - path: Bone040/Bone041/Box008/Pin05
+        weight: 1
+      - path: Bone040/Box009
+        weight: 1
+      - path: Cylinder014
+        weight: 1
+      - path: Cylinder014/Pin04
+        weight: 1
+      - path: Main Controler
+        weight: 1
+      - path: Main Controler/Bone009
+        weight: 1
+      - path: Main Controler/Bone009/Bone010
+        weight: 1
+      - path: Main Controler/Cylinder013
+        weight: 1
+      - path: Main Controler/Cylinder013/Object021
+        weight: 1
+      - path: Main Controler/Cylinder013/Pin14
+        weight: 1
+      - path: Main Controler/Cylinder013/Pin14/Dummy009
+        weight: 1
+      - path: Main Controler/Cylinder013/Pin14/Dummy009/Bone043
+        weight: 1
+      - path: Main Controler/Cylinder013/Pin14/Dummy009/Bone043/Bone044
+        weight: 1
+      - path: Main Controler/Cylinder013/Pin14/Dummy009/Bone043/Bone044/Bone045
+        weight: 1
+      - path: Main Controler/Cylinder013/Pin14/Dummy009/Bone043/Bone044/Box006
+        weight: 1
+      - path: Main Controler/Cylinder013/Pin14/Dummy009/Bone043/Box007
+        weight: 1
+      - path: Main Controler/Cylinder013/Pin14/Dummy009/Bone043/Pin13
+        weight: 1
+      - path: Main Controler/Dummy006
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017/Blade01
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017/Box053
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017/Box054
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017/connectBone001
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017/connectBone001/Bone020
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017/connectBone001/Bone020/Bone019
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017/connectBone001/Bone020/ControlRod01
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017/Cylinder037
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017/Cylinder038
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017/Cylinder039
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017/Cylinder040
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017/FlybarControlArm01
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017/LowerBladeGrip01
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017/Object
+        weight: 1
+      - path: Main Controler/Dummy006/Bone016/Bone017/UpperBladeGrip01
+        weight: 1
+      - path: Main Controler/Dummy007
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033/Blade03
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033/Bone034
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033/Bone034/Bone035
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033/Bone034/Bone035/Bone036
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033/Bone034/Bone035/ControlRod03
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033/Box058
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033/Box060
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033/Cylinder042
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033/Cylinder043
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033/Cylinder044
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033/Cylinder045
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033/FlybarControlArm03
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033/LowerBladeGrip03
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033/Object027
+        weight: 1
+      - path: Main Controler/Dummy007/Bone032/Bone033/UpperBladeGrip03
+        weight: 1
+      - path: Main Controler/Dummy008
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022/Blade02
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022/Box048
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022/Box050
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022/connectBone002
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022/connectBone002/Bone024
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022/connectBone002/Bone024/Bone025
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022/connectBone002/Bone024/ControlRod02
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022/Cylinder025
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022/Cylinder026
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022/Cylinder031
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022/Cylinder032
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022/FlybarControlArm02
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022/LowerBladeGrip02
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022/Object025
+        weight: 1
+      - path: Main Controler/Dummy008/Bone021/Bone022/UpperBladeGrip02
+        weight: 1
+      - path: Main Controler/Dummy012
+        weight: 1
+      - path: Main Controler/Dummy012/Dummy011
+        weight: 1
+      - path: Main Controler/Dummy012/Dummy011/Lower Swash Plate
+        weight: 1
+      - path: Main Controler/Dummy012/Dummy011/Lower Swash Plate/IK Chain001
+        weight: 1
+      - path: Main Controler/Dummy012/Dummy011/Lower Swash Plate/IK Chain001/PitchServoGroup01
+        weight: 1
+      - path: Main Controler/Dummy012/Dummy011/Lower Swash Plate/IK Chain002
+        weight: 1
+      - path: Main Controler/Dummy012/Dummy011/Lower Swash Plate/IK Chain002/PitchServoGroup02
+        weight: 1
+      - path: Main Controler/Dummy012/Dummy011/Lower Swash Plate/IK Chain003
+        weight: 1
+      - path: Main Controler/Dummy012/Dummy011/Lower Swash Plate/IK Chain003/PitchServoGroup03
+        weight: 1
+      - path: Main Controler/Dummy012/Dummy011/Lower Swash Plate/Pin06
+        weight: 1
+      - path: Main Controler/Dummy012/Dummy011/Lower Swash Plate/Pin07
+        weight: 1
+      - path: Main Controler/Dummy012/Dummy011/Lower Swash Plate/Pin08
+        weight: 1
+      - path: Main Controler/Dummy012/Dummy011/Lower Swash Plate/Pin09
+        weight: 1
+      - path: Main Controler/Dummy012/Dummy011/Lower Swash Plate/Pin09/Dummy005
+        weight: 1
+      - path: Main Controler/Dummy012/Dummy011/Lower Swash Plate/Pin09/Dummy005/IK
+          Chain011
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Bone011
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Cylinder035
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Cylinder035/Dummy003
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Cylinder035/Dummy003/IK Chain014
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Cylinder035/Dummy003/IK Chain015
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Dummy001
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Dummy001/IK Chain012
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Dummy001/IK Chain013
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Pin10
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Pin11
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Pin11/Dummy002
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Pin11/Dummy002/IK Chain006
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Pin11/Dummy002/IK Chain007
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Pin12
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Pin12/Dummy010
+        weight: 1
+      - path: Main Controler/Dummy012/Upper Swash Plate/Pin12/Dummy010/IK Chain016
+        weight: 1
+      - path: Main Controler/Main Shaft
+        weight: 1
+      - path: Main Controler/Star
+        weight: 1
+      - path: Main Controler/Star/Object023
+        weight: 1
+      - path: Main Controler/Star/Object028
+        weight: 1
+      - path: Main Controler/Star/Object029
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object007
+        weight: 1
+      - path: ProtectiveBoot
+        weight: 1
+      - path: Rotar Housing
+        weight: 1
+      - path: Rotar Housing/Bone001
+        weight: 1
+      - path: Rotar Housing/Bone001/Bone002
+        weight: 1
+      - path: Rotar Housing/Bone001/Object010
+        weight: 1
+      - path: Rotar Housing/Bone005
+        weight: 1
+      - path: Rotar Housing/Bone005/Bone006
+        weight: 1
+      - path: Rotar Housing/Bone005/Object012
+        weight: 1
+      - path: Rotar Housing/Bone007
+        weight: 1
+      - path: Rotar Housing/Bone007/Bone008
+        weight: 1
+      - path: Rotar Housing/Bone007/Object014
+        weight: 1
+      - path: Rotar Housing/Pin02
+        weight: 1
+      - path: Rotar Housing/Pin03
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
