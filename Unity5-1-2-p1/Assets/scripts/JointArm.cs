@@ -10,10 +10,10 @@ public class JointArm : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		// update arm angles
-		Vector3 targetDir = arm_p1_target.position - arm_p1.position;
+		//Vector3 targetDir = arm_p1_target.position - arm_p1.position;
         arm_p1.LookAt(arm_p1_target);
         arm_p2.LookAt(arm_p2_target);
         
-       // Debug.DrawLine(arm_p1.position, arm_p1_target.position, Color.red);	
+       //Debug.DrawLine(arm_p2.position, arm_p2_target.position, Color.red);	
 	}
 }
