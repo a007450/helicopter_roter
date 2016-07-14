@@ -86,9 +86,9 @@ public class RadialSlider: MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 					
 					rad = ( localPos.magnitude ) / (0.5f*thisRect.rect.width);
 					
-					Vector3 rot = throttle_rect.localEulerAngles;
-					rot.z = -ang;
-					throttle_rect.localEulerAngles = rot;
+					//Vector3 rot = throttle_rect.localEulerAngles;
+					//rot.z = -ang;
+					//throttle_rect.localEulerAngles = rot;
 					
 				}
 				itsKGFOrbitCam.SetPanningEnable( !isPointerDown );
