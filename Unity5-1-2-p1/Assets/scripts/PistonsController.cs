@@ -18,8 +18,8 @@ public class PistonsController : MonoBehaviour {
 	
 	private Vector3 fc_init;
 	private float slider_fixedcam = 0;
-	private float slider_fixedcam_min = -2.2f;
-	private float slider_fixedcam_max = 2.2f;
+	private float slider_fixedcam_min = -2.3f;
+	private float slider_fixedcam_max = 2.3f;
 	private float slider_fixedcam_old;
 	
 	// rotation 
@@ -39,9 +39,9 @@ public class PistonsController : MonoBehaviour {
 	private float adjustSpeed = 30;
 		
 	// set limits to piston y movement
-	private float y_init;
-	public float dy_max = 0.012f;
-	public float dy_min = -0.01f;
+	private float y_init = 0;
+	public float dy_max = 0.032f;
+	public float dy_min = -0f;
 	public float ang_max = 20f;
 	
 	private Vector3 targy;
@@ -114,33 +114,25 @@ public class PistonsController : MonoBehaviour {
 
         // draw GUI elements        
         GUI.skin = skin;
-        GUILayout.BeginHorizontal();
-      				
-			GUILayout.BeginVertical();
-			
-			GUILayout.Label("Collective");
-			collectivey = GUILayout.VerticalSlider(collectivey, dy_max, dy_min);		
-        	DetectOnChange(collectivey_old, collectivey);
-        	
-        	GUILayout.EndVertical();
         
-		GUILayout.EndHorizontal();
-				
-		// side UI control
-		float area_w = 200;
-		
+        // instructions
+        GUILayout.TextArea("Left click and drag to pan. Right click and drag to rotate. Scrollwheel to zoom.");
+        
+        // side UI control
+        float area_w = 0.3f*Screen.width;
+       						
 		if (slidersp >=0) {
-			GUILayout.BeginArea(new Rect(Screen.width - area_w, Screen.height*.22f, area_w, 150), new GUIStyle("window") );
+			GUILayout.BeginArea(new Rect(Screen.width - area_w, Screen.height*.3f, area_w, 190f), new GUIStyle("window") );
 			
 			GUILayout.Label("Fixed Position Camera");
 			slider_fixedcam = GUILayout.HorizontalSlider(slider_fixedcam, slider_fixedcam_min, slider_fixedcam_max, new GUIStyle("box"), new GUIStyle("horizontalsliderthumb"), GUILayout.Width(area_w-5));	
 			GUILayout.Space(10);
 			
-			WindFx = GUILayout.Toggle(WindFx,"Toggle airflow effect");
-			
 			GUILayout.Label("Rotor speed");
 			
 			slidersp = GUILayout.HorizontalSlider(slidersp, 0, sp_max, new GUIStyle("box"), new GUIStyle("horizontalsliderthumb"), GUILayout.Width(area_w-5));			
+			
+			WindFx = GUILayout.Toggle(WindFx,"Toggle airflow effect");
 			
 			GUILayout.EndArea();
 			
@@ -170,7 +162,16 @@ public class PistonsController : MonoBehaviour {
 			fixed_cam.gameObject.SetActive(false);
 		}
 		
-		//rotate rotors slider
+		// control sliders
+		 
+        GUILayout.BeginArea( new Rect(Screen.width-250, Screen.height - 240f, area_w, 150f) );
+      				
+			GUILayout.Label("Collective");
+			collectivey = GUILayout.VerticalSlider(collectivey, dy_max, dy_min);		
+        	DetectOnChange(collectivey_old, collectivey);
+        
+		GUILayout.EndArea();
+
 		
 		
 	}

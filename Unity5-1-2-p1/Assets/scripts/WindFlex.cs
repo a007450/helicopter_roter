@@ -41,16 +41,17 @@ public class WindFlex : MonoBehaviour {
 		if (onoff){
 			// pointing down
 			if (deltay<180){
-				ang = deltay * .3f;
+				ang = (deltay) * .2f;
 			}else{
-				ang = (deltay-360) * .4f;				
+			// pointing up
+				ang = (deltay-360) * .2f;				
 			}
 			
 			if (sprites.Length>0){
 				top_a = sprite_top.color;
 				bot_a = sprite_bot.color;
-				top_a.a =  Mathf.Clamp(ang, 0.1f, 1);
-				bot_a.a =  Mathf.Clamp(1-ang, 0.1f, 1);
+				top_a.a =  Mathf.Clamp(ang, 0.05f, 1);
+				bot_a.a =  Mathf.Clamp(-(ang-.5f), 0.1f, 1);
 				sprite_top.color = top_a;
 				sprite_bot.color = bot_a;
 			}

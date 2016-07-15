@@ -9,19 +9,39 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 		<script type="text/javascript" src="https://code.createjs.com/tweenjs-0.6.0.min.js"></script>
-		<script type="text/javascript" src="../libs/CSSPlugin.js"></script>
-		<script type="text/javascript" src="../libs/progress.js"></script>
-		<link rel="stylesheet" type="text/css" href="../ui/progress.css">
+		<script type="text/javascript" src="https://ltc.bcit.ca/multimedia/shared/unity_webGL/libs/CSSPlugin.js"></script>
+		<script type="text/javascript" src="https://ltc.bcit.ca/multimedia/shared/unity_webGL/libs/progress.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://ltc.bcit.ca/multimedia/shared/unity_webGL/libs/ui/progress.css">
 		<script type="text/javascript">
+			console.logError = console.log("error");
+		
 			function Output(s){
 				console.log(s);
 			}
+		
 		</script>
+		
+		<style>
+			#canvas {   
+			    height: 100vh;
+			    height: 100vh;
+				max-height: 900px;
+				max-width: 1400px;
+				min-height: 550px;
+				min-width:  750px;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: auto;
+			}
+		</style>
 	</head>
 	<body>
 		<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="100%"></canvas>
 
-		<div id="loadingBox" style="background-image:url('../ui/rotor.png');">
+		<div id="loadingBox" style="background-image:url('loading.png');">
 			<div id="progressBar"></div>
 			<p id="loadingInfo">Loading...</p>
 		</div>
